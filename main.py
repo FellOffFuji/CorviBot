@@ -16,11 +16,6 @@ from maincommon import commands_dict, commands_df, bot, errlog, send_msg
 import mainroll
 import mainsafety
 
-# deprecated NetBattlers files
-# import mainaprilfools
-# import mainnb
-# import mainadvance
-
 # PokeyManz file architecture
 # import mainpk
 # import mainpk_optional
@@ -96,7 +91,7 @@ async def bugreport(interaction: discord.Interaction, message: str):
                           color=0x5058a8)
     embed.set_footer(
         text="Submitted by: {}#{} ({})".format(message_author.name, message_author.discriminator, message_guild))
-    embed.set_thumbnail(url="https://raw.githubusercontent.com/gskbladez/meddyexe/master/virusart/bug.png")
+    embed.set_thumbnail(url="https://www.serebii.net/pokedex-swsh/icon/737.png")
     await progbot_bugreport_channel.send(embed=embed)
     await send_msg(interaction,"**_Bug Report Submitted!_**\nThanks for the help!")
 

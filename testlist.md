@@ -1,0 +1,43 @@
+### Test List
+- bugreport: send a message
+- commands: send
+- help: send a query, all
+- invite: send
+- roll: roll 5d6>4 # comment, H5, E5, 2d6k1, 2d6l1, 3d6!6>4, repeat a roll # comment,  6d1>5 for underflow, devil roll
+- chip: help, rule, folder, ??, blank, category, tag, navi, lookup multiple, query a tag, query a category, query darkchips, query megachips, query incident chips, query by license, query by crossover content, query by Genso Network
+- power: help, rule, query by virus passive powers, query by cost powers, query by speed powers, query by sense roll powers, lookup multiple powers
+- ncp: help, rule, query by 1EB, query by crossover content, query by Genso Minus Cust, lookup multiple NCPs
+- virus: help, rule, query category, query virus tags, lookup multiple viruses (simple), lookup multiple viruses (detailed), lookup omega virus, lookup mega virus
+- tag: lookup battlechip tag, lookup virus category, lookup virus tag, lookup chip category
+- query: mystic lilies (chips + ncps), night drifters (virus only), chip category, ncp EB, npu, powers by skill, daemon, network mod, weather, bond powers, heart home (no chips, NCPs, or viruses)
+- bondpower: help, rule, lookup multiple bond powers
+- mysterydata: roll common, uncommon, rare, sunny, violet, sapphire, mystery reward
+- rulebook: send, lookup beta 4 advance 3, lookup beta 7 mobile
+- element: roll a number, roll a number in a category
+- daemon: list all, list a name
+- npu: query a power for its NPUs, lookup npu description, do both in one query
+- crimsonnoise: roll uncommon, common, rare
+- networkmod: help, list, lookup multiple
+- audience: start, view
+  - audiencecheer: list, add 5, add 5, spend, spend 2, spend 5
+  - audiencejeer: list, add 5, add 5, spend, spend 2, spend 5
+  - audience: view, end, start, let timeout
+- virusrandom: send, roll 4, roll number=1, artillery=1, disruption=1, disruption=1, striker=1
+- playermaderepo: net agent, shared universe, link
+- adventure: send, adv_type=Chaos, Core
+- fight: send
+- sheet: send
+- spotlight: start w/ 4 names, edit one name to another, submit just one name, submit the name again, submit two other names, reset, view, help, remove a name, add another name, end, view
+- weather: rule, help, list, LiquidTime DiamondDust ChromaticFlux MementoBorealis
+- weatherforecast: send, roll 6, roll 6 glitch weathers 
+- achievement: list, hello, perfectionist
+- glossary: target, accurate, bond, virus, spotlight, ncp, navipower, blank chip
+- safety: any
+- find: lookup chip and power at same time
+- DM: commands, chip sword
+
+#### Error Tests
+- chip alias, real name, wrong name
+- power alias, wrong name, real name
+- not found: achievement, weather
+- weatherforecast: roll more

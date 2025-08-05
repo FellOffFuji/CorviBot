@@ -17,7 +17,7 @@ import mainroll
 import mainsafety
 
 # PokeyManz file architecture
-# import mainpk
+import mainpk
 # import mainpk_optional
 # import mainpk_pmc
 # import mainpk_session
